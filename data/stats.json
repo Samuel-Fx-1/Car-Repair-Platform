@@ -1,0 +1,22 @@
+[
+  {
+    "target": 500,
+    "icon": "fa-car",
+    "label": "Vehicles Restored"
+  },
+  {
+    "target": 350,
+    "icon": "fa-users",
+    "label": "Happy Clients"
+  },
+  {
+    "target": 30,
+    "icon": "fa-award",
+    "label": "Years Experience"
+  },
+  {
+    "target": 100,
+    "icon": "fa-star",
+    "label": "5-Star Reviews"
+  }
+]

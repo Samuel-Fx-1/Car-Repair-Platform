@@ -1,0 +1,26 @@
+[
+  {
+    "number": "01",
+    "icon": "fa-calendar-alt",
+    "title": "Book Appointment",
+    "description": "Schedule your service online or call us directly"
+  },
+  {
+    "number": "02",
+    "icon": "fa-clipboard-check",
+    "title": "Vehicle Inspection",
+    "description": "Free comprehensive diagnostic assessment"
+  },
+  {
+    "number": "03",
+    "icon": "fa-wrench",
+    "title": "Expert Repair",
+    "description": "Professional technicians at work"
+  },
+  {
+    "number": "04",
+    "icon": "fa-key",
+    "title": "Quality Check",
+    "description": "Final inspection and delivery"
+  }
+]

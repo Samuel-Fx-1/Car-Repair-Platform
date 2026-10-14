@@ -1,0 +1,31 @@
+{
+  "hours": {
+    "title": "Business Hours",
+    "icon": "fa-clock",
+    "lines": ["Monday - Saturday", "8:00 AM - 6:00 PM", "Sunday: Closed"]
+  },
+  "phone": {
+    "title": "Call Us",
+    "icon": "fa-phone",
+    "lines": ["(555) 123-4567", "(555) 987-6543"]
+  },
+  "email": {
+    "title": "Email",
+    "icon": "fa-envelope",
+    "lines": ["info@jadeandyvintage.com", "service@jadeandyvintage.com"]
+  },
+  "location": {
+    "title": "Location",
+    "icon": "fa-map-marker-alt",
+    "lines": ["1234 Classic Drive", "Vintage City, VC 90210"]
+  },
+  "serviceOptions": [
+    { "value": "", "label": "Select Service" },
+    { "value": "engine", "label": "Engine Repair" },
+    { "value": "transmission", "label": "Transmission Service" },
+    { "value": "brake", "label": "Brake System" },
+    { "value": "electrical", "label": "Electrical Systems" },
+    { "value": "body", "label": "Body Restoration" },
+    { "value": "interior", "label": "Interior Refurbish" }
+  ]
+}

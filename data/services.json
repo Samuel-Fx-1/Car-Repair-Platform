@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "fa-cog",
+    "title": "Engine Repair",
+    "description": "Complete engine diagnostics, rebuild, and performance optimization for vintage engines.",
+    "link": "#"
+  },
+  {
+    "icon": "fa-cogs",
+    "title": "Transmission Service",
+    "description": "Professional transmission repair and restoration for manual and automatic systems.",
+    "link": "#"
+  },
+  {
+    "icon": "fa-car-crash",
+    "title": "Brake System",
+    "description": "Complete brake system overhaul, ensuring safety and optimal stopping power.",
+    "link": "#"
+  },
+  {
+    "icon": "fa-bolt",
+    "title": "Electrical Systems",
+    "description": "Vintage wiring restoration, modern upgrades, and electrical troubleshooting.",
+    "link": "#"
+  },
+  {
+    "icon": "fa-paint-brush",
+    "title": "Body Restoration",
+    "description": "Full body restoration, rust repair, and custom paint matching for classics.",
+    "link": "#"
+  },
+  {
+    "icon": "fa-chair",
+    "title": "Interior Refurbish",
+    "description": "Upholstery restoration, dashboard repair, and vintage interior detailing.",
+    "link": "#"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "jade-andy-vintage",
+  "version": "1.0.0",
+  "description": "Jade & Andy Vintage Specialist - Classic Car Repair Garage Website (Node.js + EJS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["classic-cars", "garage", "vintage", "restoration"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1"
+  }
+}

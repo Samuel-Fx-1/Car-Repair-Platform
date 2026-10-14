@@ -1,0 +1,243 @@
+<%- include('partials/head', { title, metaDescription }) %>
+
+<%- include('partials/header') %>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="logo-main" data-aos="fade-down">
+                <div class="logo-icon-large">
+                    <i class="fas fa-tools"></i>
+                </div>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">JADE & ANDY</h1>
+            <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">VINTAGE SPECIALIST</h2>
+            <div class="divider" data-aos="fade-up" data-aos-delay="600"></div>
+            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="800">Crafting Excellence in Every Classic</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="1000">
+                <a href="#contact" class="btn btn-primary">Book Service</a>
+                <a href="#gallery" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR SERVICES</h2>
+                <p class="section-subtitle">Expert Care for Your Classic Vehicle</p>
+            </div>
+            <div class="services-grid">
+                <% services.forEach((service, index) => { %>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="<%= (index + 1) * 100 %>">
+                    <div class="service-icon">
+                        <i class="fas <%= service.icon %>"></i>
+                    </div>
+                    <h3 class="service-title"><%= service.title %></h3>
+                    <p class="service-description"><%= service.description %></p>
+                    <a href="<%= service.link %>" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <% stats.forEach((stat, index) => { %>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="<%= (index + 1) * 100 %>">
+                    <div class="stat-icon"><i class="fas <%= stat.icon %>"></i></div>
+                    <div class="stat-number" data-target="<%= stat.target %>">0</div>
+                    <div class="stat-label"><%= stat.label %></div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR PORTFOLIO</h2>
+                <p class="section-subtitle">Classic Restorations & Repairs</p>
+            </div>
+            <div class="gallery-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vintage">Vintage Cars</button>
+                <button class="filter-btn" data-filter="performance">Performance</button>
+                <button class="filter-btn" data-filter="motorcycle">Motorcycles</button>
+                <button class="filter-btn" data-filter="custom">Custom Build</button>
+            </div>
+            <div class="gallery-grid">
+                <% gallery.forEach((item, index) => { %>
+                <div class="gallery-item" data-category="<%= item.category %>" data-aos="fade-up" data-aos-delay="<%= index * 100 %>">
+                    <div class="gallery-image">
+                        <img src="<%= item.image %>" alt="<%= item.title %>">
+                        <div class="gallery-overlay">
+                            <h3><%= item.title %></h3>
+                            <p><%= item.description %></p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR PROCESS</h2>
+                <p class="section-subtitle">Simple Steps to Perfection</p>
+            </div>
+            <div class="process-timeline">
+                <% processSteps.forEach((step, index) => { %>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="<%= (index + 1) * 100 %>">
+                    <div class="step-number"><%= step.number %></div>
+                    <div class="step-icon"><i class="fas <%= step.icon %>"></i></div>
+                    <h3 class="step-title"><%= step.title %></h3>
+                    <p class="step-description"><%= step.description %></p>
+                </div>
+                <% if (index < processSteps.length - 1) { %>
+                <div class="process-arrow" data-aos="fade-up" data-aos-delay="<%= (index + 1) * 100 + 100 %>">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <% } %>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">MEET THE TEAM</h2>
+                <p class="section-subtitle">Expert Craftsmen Behind Every Restoration</p>
+            </div>
+            <div class="team-grid">
+                <% team.forEach((member, index) => { %>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="<%= (index + 1) * 100 %>">
+                    <div class="team-image">
+                        <img src="<%= member.image %>" alt="<%= member.name %>">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="<%= member.social.facebook %>"><i class="fab fa-facebook-f"></i></a>
+                                <a href="<%= member.social.instagram %>"><i class="fab fa-instagram"></i></a>
+                                <a href="<%= member.social.linkedin %>"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name"><%= member.name %></h3>
+                        <p class="team-role"><%= member.role %></p>
+                        <p class="team-experience"><%= member.experience %></p>
+                        <p class="team-quote"><%= member.quote %></p>
+                        <div class="team-badges">
+                            <% member.badges.forEach(badge => { %>
+                            <span class="badge"><%= badge %></span>
+                            <% }); %>
+                        </div>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">CLIENT REVIEWS</h2>
+                <p class="section-subtitle">What Our Customers Say</p>
+            </div>
+            <div class="swiper testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    <% testimonials.forEach(testimonial => { %>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text"><%= testimonial.text %></p>
+                            <div class="testimonial-rating">
+                                <% for (let i = 0; i < testimonial.rating; i++) { %>
+                                <i class="fas fa-star"></i>
+                                <% } %>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4><%= testimonial.author %></h4>
+                                <p><%= testimonial.title %></p>
+                            </div>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">GET IN TOUCH</h2>
+                <p class="section-subtitle">Book Your Service Today</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <% const infoCards = [contact.hours, contact.phone, contact.email, contact.location]; %>
+                    <% infoCards.forEach(card => { %>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas <%= card.icon %>"></i></div>
+                        <h3><%= card.title %></h3>
+                        <% card.lines.forEach(line => { %>
+                        <p><%= line %></p>
+                        <% }); %>
+                    </div>
+                    <% }); %>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <% contact.serviceOptions.forEach(opt => { %>
+                                <option value="<%= opt.value %>"><%= opt.label %></option>
+                                <% }); %>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="vehicle" name="vehicle" placeholder="Vehicle Make & Model" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Additional Details" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Book Appointment</button>
+                    </form>
+                    <div id="formMessage" class="form-message" style="display:none; margin-top: 20px; padding: 15px; border-radius: 5px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<%- include('partials/footer') %>
+<%- include('partials/scripts') %>

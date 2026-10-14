@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Jade Anderson",
+    "role": "Master Technician",
+    "experience": "30+ Years Experience",
+    "quote": "\"Every car has a story to tell\"",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
+    "badges": ["ASE Certified", "Classic Specialist"],
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Andy Thompson",
+    "role": "Engine Specialist",
+    "experience": "25+ Years Experience",
+    "quote": "\"Perfection is in the details\"",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    "badges": ["Engine Expert", "Performance Tuning"],
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Marcus Steel",
+    "role": "Electrical Engineer",
+    "experience": "15+ Years Experience",
+    "quote": "\"Modern tech, vintage soul\"",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80",
+    "badges": ["Electrical Systems", "Diagnostics"],
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  }
+]

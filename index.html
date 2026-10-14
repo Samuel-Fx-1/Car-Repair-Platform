@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade & Andy Vintage Specialist - Classic Car Repair Garage</title>
+    <meta name="description" content="Professional vintage car repair and restoration services. Expert mechanics specializing in classic automobiles.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&family=Russo+One&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Swiper CSS for Carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-icon">
+                    <i class="fas fa-wrench"></i>
+                    <i class="fas fa-wrench crossed"></i>
+                </div>
+                <span class="brand-name">JADE & ANDY</span>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#services" class="nav-link">SERVICES</a></li>
+                <li><a href="#gallery" class="nav-link">OUR WORK</a></li>
+                <li><a href="#team" class="nav-link">ABOUT</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                <li><a href="#" class="nav-link btn-login">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="logo-main" data-aos="fade-down">
+                <div class="logo-icon-large">
+                    <i class="fas fa-tools"></i>
+                </div>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">JADE & ANDY</h1>
+            <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">VINTAGE SPECIALIST</h2>
+            <div class="divider" data-aos="fade-up" data-aos-delay="600"></div>
+            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="800">Crafting Excellence in Every Classic</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="1000">
+                <a href="#contact" class="btn btn-primary">Book Service</a>
+                <a href="#gallery" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR SERVICES</h2>
+                <p class="section-subtitle">Expert Care for Your Classic Vehicle</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3 class="service-title">Engine Repair</h3>
+                    <p class="service-description">Complete engine diagnostics, rebuild, and performance optimization for vintage engines.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Transmission Service</h3>
+                    <p class="service-description">Professional transmission repair and restoration for manual and automatic systems.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-car-crash"></i>
+                    </div>
+                    <h3 class="service-title">Brake System</h3>
+                    <p class="service-description">Complete brake system overhaul, ensuring safety and optimal stopping power.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="service-title">Electrical Systems</h3>
+                    <p class="service-description">Vintage wiring restoration, modern upgrades, and electrical troubleshooting.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">Body Restoration</h3>
+                    <p class="service-description">Full body restoration, rust repair, and custom paint matching for classics.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <h3 class="service-title">Interior Refurbish</h3>
+                    <p class="service-description">Upholstery restoration, dashboard repair, and vintage interior detailing.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon"><i class="fas fa-car"></i></div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Vehicles Restored</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number" data-target="350">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">5-Star Reviews</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR PORTFOLIO</h2>
+                <p class="section-subtitle">Classic Restorations & Repairs</p>
+            </div>
+            <div class="gallery-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vintage">Vintage Cars</button>
+                <button class="filter-btn" data-filter="performance">Performance</button>
+                <button class="filter-btn" data-filter="motorcycle">Motorcycles</button>
+                <button class="filter-btn" data-filter="custom">Custom Build</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="vintage" data-aos="fade-up">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80" alt="1965 Mustang Restoration">
+                        <div class="gallery-overlay">
+                            <h3>1965 Ford Mustang</h3>
+                            <p>Complete Engine Rebuild</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?w=800&q=80" alt="Porsche 911 Tuning">
+                        <div class="gallery-overlay">
+                            <h3>Porsche 911</h3>
+                            <p>Performance Upgrade</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="vintage" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80" alt="Classic VW Beetle">
+                        <div class="gallery-overlay">
+                            <h3>VW Beetle 1970</h3>
+                            <p>Full Restoration</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="motorcycle" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80" alt="Vintage Motorcycle">
+                        <div class="gallery-overlay">
+                            <h3>Harley Davidson</h3>
+                            <p>Custom Paint Job</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="custom" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80" alt="Custom Hot Rod">
+                        <div class="gallery-overlay">
+                            <h3>Hot Rod Build</h3>
+                            <p>Custom Fabrication</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="vintage" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80" alt="Mercedes Classic">
+                        <div class="gallery-overlay">
+                            <h3>Mercedes 280SL</h3>
+                            <p>Interior Restoration</p>
+                            <button class="btn-view"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OUR PROCESS</h2>
+                <p class="section-subtitle">Simple Steps to Perfection</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h3 class="step-title">Book Appointment</h3>
+                    <p class="step-description">Schedule your service online or call us directly</p>
+                </div>
+                <div class="process-arrow" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3 class="step-title">Vehicle Inspection</h3>
+                    <p class="step-description">Free comprehensive diagnostic assessment</p>
+                </div>
+                <div class="process-arrow" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="500">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fas fa-wrench"></i></div>
+                    <h3 class="step-title">Expert Repair</h3>
+                    <p class="step-description">Professional technicians at work</p>
+                </div>
+                <div class="process-arrow" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="700">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fas fa-key"></i></div>
+                    <h3 class="step-title">Quality Check</h3>
+                    <p class="step-description">Final inspection and delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">MEET THE TEAM</h2>
+                <p class="section-subtitle">Expert Craftsmen Behind Every Restoration</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Jade Anderson">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Jade Anderson</h3>
+                        <p class="team-role">Master Technician</p>
+                        <p class="team-experience">30+ Years Experience</p>
+                        <p class="team-quote">"Every car has a story to tell"</p>
+                        <div class="team-badges">
+                            <span class="badge">ASE Certified</span>
+                            <span class="badge">Classic Specialist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Andy Thompson">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Andy Thompson</h3>
+                        <p class="team-role">Engine Specialist</p>
+                        <p class="team-experience">25+ Years Experience</p>
+                        <p class="team-quote">"Perfection is in the details"</p>
+                        <div class="team-badges">
+                            <span class="badge">Engine Expert</span>
+                            <span class="badge">Performance Tuning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80" alt="Marcus Steel">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Marcus Steel</h3>
+                        <p class="team-role">Electrical Engineer</p>
+                        <p class="team-experience">15+ Years Experience</p>
+                        <p class="team-quote">"Modern tech, vintage soul"</p>
+                        <div class="team-badges">
+                            <span class="badge">Electrical Systems</span>
+                            <span class="badge">Diagnostics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">CLIENT REVIEWS</h2>
+                <p class="section-subtitle">What Our Customers Say</p>
+            </div>
+            <div class="swiper testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">They brought my 1965 Mustang back to life. The attention to detail and professionalism is simply outstanding. It's like driving a brand new classic!</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Robert Wilson</h4>
+                                <p>Mustang Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Incredible service! Jade and Andy restored my father's vintage Porsche 911. They treated it with the care and respect it deserved. Highly recommend!</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Sarah Mitchell</h4>
+                                <p>Porsche Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Best garage in town for vintage vehicles. Their expertise in classic cars is unmatched. Fair pricing and honest communication throughout the process.</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>David Chen</h4>
+                                <p>Classic Car Collector</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">GET IN TOUCH</h2>
+                <p class="section-subtitle">Book Your Service Today</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Saturday<br>8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Call Us</h3>
+                        <p>(555) 123-4567<br>(555) 987-6543</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>info@jadeandyvintage.com<br>service@jadeandyvintage.com</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Location</h3>
+                        <p>1234 Classic Drive<br>Vintage City, VC 90210</p>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="engine">Engine Repair</option>
+                                <option value="transmission">Transmission Service</option>
+                                <option value="brake">Brake System</option>
+                                <option value="electrical">Electrical Systems</option>
+                                <option value="body">Body Restoration</option>
+                                <option value="interior">Interior Refurbish</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="vehicle" name="vehicle" placeholder="Vehicle Make & Model" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Additional Details" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-wrench"></i>
+                            <i class="fas fa-wrench crossed"></i>
+                        </div>
+                        <h3>JADE & ANDY</h3>
+                    </div>
+                    <p class="footer-description">Specializing in vintage car restoration and repair since 1995. Bringing classics back to life with passion and precision.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Portfolio</a></li>
+                        <li><a href="#team">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Engine Repair</a></li>
+                        <li><a href="#">Transmission</a></li>
+                        <li><a href="#">Body Work</a></li>
+                        <li><a href="#">Electrical</a></li>
+                        <li><a href="#">Custom Build</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for classic car tips and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="footer-badges">
+                        <img src="https://via.placeholder.com/80x40/333333/cccccc?text=ASE" alt="ASE Certified">
+                        <img src="https://via.placeholder.com/80x40/333333/cccccc?text=BBB+A+" alt="BBB Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jade & Andy Vintage Specialist. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+    "title": "1965 Ford Mustang",
+    "description": "Complete Engine Rebuild"
+  },
+  {
+    "category": "performance",
+    "image": "https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?w=800&q=80",
+    "title": "Porsche 911",
+    "description": "Performance Upgrade"
+  },
+  {
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80",
+    "title": "VW Beetle 1970",
+    "description": "Full Restoration"
+  },
+  {
+    "category": "motorcycle",
+    "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+    "title": "Harley Davidson",
+    "description": "Custom Paint Job"
+  },
+  {
+    "category": "custom",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80",
+    "title": "Hot Rod Build",
+    "description": "Custom Fabrication"
+  },
+  {
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+    "title": "Mercedes 280SL",
+    "description": "Interior Restoration"
+  }
+]
